@@ -1,17 +1,14 @@
-[
-    {
-        "idFrase":1,
-        "autor":"Davi",
-        "frase":"O que acaba com meu dia é a noite."
-    },
-    {
-        "idFrase":2,
-        "autor":"Davi",
-        "frase":"Ei, isso é droga é?"
-    },
-    {
-        "idFrase":3,
-        "autor":"Diogo",
-        "frase":"Agora pronto, o vizinho começou a roer com o som no talo🤦‍♂️"
-    }
-]
+{
+    "frases": [
+      {
+        "id": 1,  
+        "autor": "Davi",
+        "frase": "O que acaba com meu dia é a noite."
+      },
+      {
+        "id": 2,  
+        "autor": "Thanos",
+        "frase": "Eu sou inevitável."
+      }
+    ]
+  }

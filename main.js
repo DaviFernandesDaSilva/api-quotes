@@ -17,7 +17,16 @@ fs.readFile("frases.json" , "utf8", function(err, data){
 
 })
 
-app.get('/', (req, res) => { res.json(jsonData) });
+app.get('/', (req, res, next) => {
+    res.json(jsonData);
+    res.on('data', function (chunk) {
+        var parsedResponse = JSON.parse(JSON.stringify(chunk));
+        console.log(parsedResponse);
+    });
+
+    res.end();
+
+    });
 
 app.get('/api/v1/allFrases', (req, res) =>
     res.json(
