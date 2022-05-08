@@ -1,43 +1,64 @@
 {
     "frases":[{
+        "id":1,
         "autor":"Davi Fernandes",
         "cita":"O que acaba com meu dia é a noite."
     },
     {
+        "id":2,
         "autor":"Rochelle",
         "cita":"Meu marido tem dois empregos."
     },
     {
+        "id":3,
         "autor":"Thanos",
         "cita":"Eu sou inevitável."
     },
     {
+        "id":4,
         "autor":"Rei Julien",
         "cita":"Eu me remexo muito."
     },
     {
+        "id":5,
         "autor":"Pernalonga",
         "cita":"O que é que há, velhinho?"
     }
     ,
     {
+        "id":6,
         "autor":"He-Man",
         "cita":"Pelos poderes de Greyskull! Eu tenho a força!"
     }
     ,
     {
+        "id":7,
         "autor":"Naruto",
         "cita":"Eu vou ser hokage, tô certo dattebayo!"
     }
     ,
     {
+        "id":8,
         "autor":"Kaneki",
         "cita":"Eu não sou aquele que está errado, o que está errado é este mundo."
     }
     ,
     {
-        "autor":"Luffy",
-        "cita":"Eu vou ser o Rei dos Piratas!"
+        "id":9,
+        "autor":"Zoro",
+        "cita":"Pode vir que o Zoro sola."
+    }
+    ,
+    {
+        "id":10,
+        "autor":"Adão",
+        "cita":"Um pai não precisa de motivos para proteger seus filhos."
+    }
+    ,
+    {
+        "id":11,
+        "autor":"Shay Patrick Cormac",
+        "cita":"As escolhas mais difíceis da vida, são as que te forçam a questionar o seu próprio código moral, minha escolha me trouxe aqui, no caminho daqueles que uma vez chamei de irmãos, podem me chamar de traidor, rebelde ou renegado, no final não importa como serei lembrado na história, me importa apenas que segui minha própria crença."
     }
     ]
 }

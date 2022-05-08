@@ -1,14 +1,25 @@
-import frases from './frases.json';
+//import frases from './frases.json';
 import { useEffect, useState } from 'react';
+import frases from './frases.json';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref, onValue, child, get } from "firebase/database";
+import { uid } from "uid";
+import firebase from "./firebase.js";
 
 export default function Home() {
-  var i,autor,cita;
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
+const [autoria, setAutoria] = useState();
+const [frase, setFrase] = useState();
+
+var fraseAtual;
+
+  var i,autor,cita;
   const [autoR, setAutor] = useState();
   const [citA, setCita] = useState();
-
     //for (i = 0; i < frases.frases.length; i++) { 
      //console.log(frases.frases[i].nome);
       //console.log(frases.frases[i].idade);
@@ -19,6 +30,7 @@ export default function Home() {
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
     
+
       var max = frases.frases.length - 1;
 
       var randomFrase = getRandomIntInclusive(0,max);
@@ -35,11 +47,15 @@ export default function Home() {
     <div className="bg-gray-800 all text-white mx-auto">
     <Header />
 
+    {fraseAtual ? fraseAtual.map((frase) =>{
+      <h1>{frase.autor}</h1>
+    }): ''}
+
     <section className="text-center">
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
             <div className="py-3 px-6 border-b font-bold border-gray-300 text-white">
-              Citação!!
+              Citação
             </div>
             <div className="p-6">
               <h5 className="text-white text-xl font-medium mb-2">{citA}</h5>
