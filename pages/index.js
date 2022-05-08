@@ -27,28 +27,28 @@ export default function Home() {
 
       cita = frases.frases[randomFrase]?.cita;
 
-      useEffect(() => setAutor(autor), [])
+      useEffect(() => setAutor(autor), [setAutor])
 
-      useEffect(() => setCita(cita), [])
+      useEffect(() => setCita(cita), [setCita])
 
   return (
     <div className="bg-gray-800 all text-white mx-auto">
     <Header />
 
     <section className="text-center">
-      <div class="flex justify-center">
-        <div class="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
-            <div class="py-3 px-6 border-b font-bold border-gray-300 text-white">
+      <div className="flex justify-center">
+        <div className="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
+            <div className="py-3 px-6 border-b font-bold border-gray-300 text-white">
               Citação
             </div>
-            <div class="p-6">
-              <h5 class="text-white text-xl font-medium mb-2">{citA}</h5>
-              <p class="text-white text-base mb-4">
+            <div className="p-6">
+              <h5 className="text-white text-xl font-medium mb-2">{citA}</h5>
+              <p className="text-white text-base mb-4">
                 {autoR}
               </p>
             <button type="button" 
             value="Refresh Page"
-            class="scale-90 inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-500 hover:shadow-lg focus:bg-gray-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="scale-90 inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-500 hover:shadow-lg focus:bg-gray-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out"
             >Gerar outra citação</button>
           </div>
         </div>
