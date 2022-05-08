@@ -4,7 +4,7 @@
         "cita":"O que acaba com meu dia é a noite."
     },
     {
-        "autor":"Rochele",
+        "autor":"Rochelle",
         "cita":"Meu marido tem dois empregos."
     },
     {
@@ -14,6 +14,30 @@
     {
         "autor":"Rei Julien",
         "cita":"Eu me remexo muito."
+    },
+    {
+        "autor":"Pernalonga",
+        "cita":"O que é que há, velhinho?"
+    }
+    ,
+    {
+        "autor":"He-Man",
+        "cita":"Pelos poderes de Greyskull! Eu tenho a força!"
+    }
+    ,
+    {
+        "autor":"Naruto",
+        "cita":"Eu vou ser hokage, tô certo dattebayo!"
+    }
+    ,
+    {
+        "autor":"Kaneki",
+        "cita":"Eu não sou aquele que está errado, o que está errado é este mundo."
+    }
+    ,
+    {
+        "autor":"Luffy",
+        "cita":"Eu vou ser o Rei dos Piratas!"
     }
     ]
 }
