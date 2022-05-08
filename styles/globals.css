@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+container{
+  color: black;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -32,7 +32,7 @@ export default function Home() {
 
 
   return (
-    <div className={styles.container}>
+    <div className="container">
       <h1>Citação</h1>
       <h3>{citA}</h3>
       <h2>{autoR}</h2>
