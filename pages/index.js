@@ -5,6 +5,13 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
 export default function Home() {
+
+  var btn = document.querySelector("#refresh");
+    btn.addEventListener("click", function() {
+    
+    location.reload();
+    });
+
   var i,autor,cita;
   const [autoR, setAutor] = useState();
   const [citA, setCita] = useState();
@@ -44,7 +51,9 @@ export default function Home() {
               <p className="text-white text-base mb-4">
                 {autoR}
               </p>
-            <button type="button" 
+            <button
+            id="refresh"
+            type="button" 
             value="Refresh Page"
             className="inline-block px-6 py-2.5 bg-gray-700 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-500 hover:shadow-lg focus:bg-gray-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg transition duration-150 ease-in-out"
             >Gerar outra citação</button>
