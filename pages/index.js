@@ -3,7 +3,6 @@ import { useEffect, useState } from 'react';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
-
 export default function Home() {
   var i,autor,cita;
 
@@ -40,7 +39,7 @@ export default function Home() {
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
             <div className="py-3 px-6 border-b font-bold border-gray-300 text-white">
-              Citação
+              Citação!!
             </div>
             <div className="p-6">
               <h5 className="text-white text-xl font-medium mb-2">{citA}</h5>
