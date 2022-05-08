@@ -35,7 +35,7 @@ export default function Home() {
     <Header />
     <section className="text-center">
       <div className="flex justify-center">
-        <div className="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
+        <div className="rounded-lg shadow-lg bg-gray-900 max-w-lg text-center ">
             <div className="py-3 px-6 border-b font-bold border-gray-300 text-white">
               Citação
             </div>
