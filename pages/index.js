@@ -3,10 +3,6 @@ import { useEffect, useState } from 'react';
 import frases from './frases.json';
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
-import { initializeApp } from "firebase/app";
-import { getDatabase, ref, onValue, child, get } from "firebase/database";
-import { uid } from "uid";
-import firebase from "./firebase.js";
 
 export default function Home() {
 // Your web app's Firebase configuration
