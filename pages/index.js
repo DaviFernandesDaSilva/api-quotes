@@ -5,14 +5,6 @@ import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
 export default function Home() {
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
-const [autoria, setAutoria] = useState();
-const [frase, setFrase] = useState();
-
-var fraseAtual;
-
   var i,autor,cita;
   const [autoR, setAutor] = useState();
   const [citA, setCita] = useState();
@@ -25,7 +17,6 @@ var fraseAtual;
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    
 
       var max = frases.frases.length - 1;
 
@@ -42,11 +33,6 @@ var fraseAtual;
   return (
     <div className="bg-gray-800 all text-white mx-auto">
     <Header />
-
-    {fraseAtual ? fraseAtual.map((frase) =>{
-      <h1>{frase.autor}</h1>
-    }): ''}
-
     <section className="text-center">
       <div className="flex justify-center">
         <div className="rounded-lg shadow-lg bg-gray-900 max-w-sm text-center ">
