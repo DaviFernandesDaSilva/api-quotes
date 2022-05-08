@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css';
 import frases from './frases.json';
 import { useEffect, useState } from 'react';
 
