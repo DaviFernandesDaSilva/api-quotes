@@ -1,6 +1,8 @@
 import frases from '../pages/frases.json';
 
 export default function Home() {
+  
+  frasesTotal = frases.frases.length - 1;
 
   return (
     
@@ -102,7 +104,7 @@ export default function Home() {
     <a className="text-whitehite" target="_blank" rel="noreferrer" href="https://wa.link/90mpdc"> Davi Fernandes</a>
   <br></br>
   <small className="text-gray-300">Quotes version: v1.2  | </small>
-  <small className="text-gray-300">Phrases count: {frases.frases.length}</small>
+  <small className="text-gray-300">Phrases count: {frasesTotal}</small>
   </div>
 </footer>
   )
