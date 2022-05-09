@@ -2,7 +2,7 @@ import frases from '../pages/frases.json';
 
 export default function Home() {
   
-  frasesTotal = frases.frases.length - 1;
+  var frasesTotal = frases.frases.length - 1;
 
   return (
     
