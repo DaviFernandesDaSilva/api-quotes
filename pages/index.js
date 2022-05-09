@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="flex justify-center m-auto h-screen bg-gradient-to-br from-gray-600 to-gray-800 text-white mx-auto leading-relaxed">
-    <section className="flex justify-center scale-50 xl:scale-100 text-center min-w-12 items-center">
+    <section className="flex justify-center scale-75 xl:scale-100 text-center min-w-12 items-center">
       <div className="flex justify-center">
         <div className="
         transform hover:bg-gray-800 hover:scale-105 hover:shadow-gray-900 hover:shadow-xl 
