@@ -52,11 +52,11 @@ export default function Home() {
           type="button" 
             value="Refresh Page"
             onClick={() => refreshPage()}
-          class="
+          className="
           hover:scale-105 hover:font-bold transform
           transition ease-out duration-300
           relative inline-flex items-center justify-center p-0.5 mb-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-gray-600 to-gray-700 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white">
-          <span class="relative px-5 py-2.5 text-xs leading-tight uppercase transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0">
+          <span className="relative px-5 py-2.5 text-xs leading-tight uppercase transition-all ease-in duration-75 bg-gray-800 rounded-md group-hover:bg-opacity-0">
             Encontrar outra CITAÇÃO
           </span>
           </button>
