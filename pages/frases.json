@@ -60,5 +60,204 @@
         "autor":"Shay Patrick Cormac",
         "cita":"As escolhas mais difíceis da vida, são as que te forçam a questionar o seu próprio código moral, minha escolha me trouxe aqui, no caminho daqueles que uma vez chamei de irmãos, podem me chamar de traidor, rebelde ou renegado, no final não importa como serei lembrado na história, me importa apenas que segui minha própria crença."
     }
+    ,
+    {
+        "id":12,
+        "autor":"Autor novo",
+        "cita":"Frase nova"
+    }
+    ,
+    {
+        "id":13,
+        "autor":"Platão",
+        "cita":"De todos os animais selvagens, o homem jovem é o mais difícil de domar."
+    }
+    ,
+    {
+        "id":14,
+        "autor":"Platão",
+        "cita":"Quem comete uma injustiça é sempre mais infeliz que o injustiçado."
+    }
+    ,
+    {
+        "id":15,
+        "autor":"Platão",
+        "cita":"Uma vida não questionada não merece ser vivida."
+    }
+    ,
+    {
+        "id":16,
+        "autor":"Platão",
+        "cita":"São muitos os que usam a régua, mas poucos os inspirados."
+    }
+    ,
+    {
+        "id":17,
+        "autor":"Clarice Lispector",
+        "cita":"Porque há o direito ao grito. Então eu grito."
+    }
+    ,
+    {
+        "id":18,
+        "autor":"Clarice Lispector",
+        "cita":"O que importa afinal, viver ou saber que se está vivendo?"
+    }
+    ,
+    {
+        "id":19,
+        "autor":"Clarice Lispector",
+        "cita":"A palavra é meu domínio sobre o mundo."
+    }
+    ,
+    {
+        "id":20,
+        "autor":"Waldemar Valle Martins",
+        "cita":"O importante não é vencer todos os dias, mas lutar sempre."
+    }
+    ,{
+        "id":21,
+        "autor":"Davi Fernandes",
+        "cita":"Passei vários perrengues para isso estar aqui, mas está aqui e é isso que importa."
+    }
+    ,{
+        "id":22,
+        "autor":"Buda",
+        "cita":"É melhor conquistar a si mesmo do que vencer mil batalhas."
+    }
+    ,{
+        "id":23,
+        "autor":"Mussum",
+        "cita":"O medo de perder tira a vontade de ganhar."
+    }
+    ,{
+        "id":24,
+        "autor":"Aldo Novak",
+        "cita":"Perder para a razão, sempre é ganhar."
+    }
+    ,{
+        "id":25,
+        "autor":"Escolher o seu tempo é ganhar tempo.",
+        "cita":"Francis Bacon"
+    }
+    ,{
+        "id":26,
+        "autor":"Ludwig von Mises",
+        "cita":"A humanidade precisa, antes de tudo, se libertar da submissão a slogans absurdos e voltar a confiar na sensatez da razão."
+    }
+    ,{
+        "id":27,
+        "autor":"Ludwig von Mises",
+        "cita":"A economia não trata de coisas ou de objetos materiais tangíveis; trata de homens, de suas apreciações e das ações que daí derivam."
+    }
+    ,{
+        "id":28,
+        "autor":"Ludwig von Mises",
+        "cita":"O primeiro requisito para uma ordem social melhor é o retorno à liberdade irrestrita de pensamento e de expressão."
+    }
+    ,{
+        "id":29,
+        "autor":"Autor desconhecido",
+        "cita":"Cadê o cachorro do Alecsander? Ele disse que ia vir e nem veio."
+    }
+    ,{
+        "id":30,
+        "autor":"Ludwig von Mises",
+        "cita":"Sua mera existência é uma prova do êxito do capitalismo, seja qual for o valor que você atribua à própria vida."
+    }
+    ,{
+        "id":31,
+        "autor":"John Locke",
+        "cita":"Ler fornece ao espírito materiais para o conhecimento, mas só o pensar faz nosso o que lemos."
+    }
+    ,{
+        "id":32,
+        "autor":"Wandallis",
+        "cita":"Ei."
+    }
+    ,{
+        "id":33,
+        "autor":"John Locke",
+        "cita":"Onde não há lei, não há liberdade."
+    }
+    ,{
+        "id":34,
+        "autor":"John Locke",
+        "cita":"O homem nasce como se fosse uma “folha em branco”"
+    }
+    ,{
+        "id":35,
+        "autor":"John Locke",
+        "cita":"O que te preocupa, te escraviza."
+    }
+    ,{
+        "id":37,
+        "autor":"John Locke",
+        "cita":"Uma coisa é demonstrar a um homem que ele está errado, outra é colocá-lo de posse da verdade."
+    },{
+        "id":38,
+        "autor":"Rafaela",
+        "cita":"Que turma estranha."
+    },{
+        "id":39,
+        "autor":"Anderson Costa",
+        "cita":"Tá chovendo água."
+    },{
+        "id":40,
+        "autor":"Cristina",
+        "cita":"Mais é menos."
+    },{
+        "id":41,
+        "autor":"Anderson Costa",
+        "cita":"Eu tenho um taco chamado “diálogo” ."
+    }
+    ,{
+        "id":42,
+        "autor":"Douglas Lima",
+        "cita":"Misericórdia."
+    }
+    ,{
+        "id":42,
+        "autor":"Douglas Menezes",
+        "cita":"Misericórdia."
+    }
+    ,{
+        "id":42,
+        "autor":"Paulo Freire",
+        "cita":"Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda."
+    }
+    ,{
+        "id":43,
+        "autor":"William Arthur Lewis",
+        "cita":"Educação nunca foi despesa. Sempre foi investimento com retorno garantido."
+    },{
+        "id":44,
+        "autor":"Augusto Cury",
+        "cita":"Frágeis usam a violência, e os fortes, as ideias."
+    },{
+        "id":45,
+        "autor":"Heráclito de Éfeso",
+        "cita":"Nada é permanente, exceto a mudança."
+    },{
+        "id":46,
+        "autor":"Nelson Mandela",
+        "cita":"A educação é a arma mais poderosa que você pode usar para mudar o mundo."
+    },{
+        "id":47,
+        "autor":"Voltaire",
+        "cita":"Preconceito é opinião sem conhecimento."
+    },{
+        "id":48,
+        "autor":"Manuel Castells",
+        "cita":"A internet é muito mais que uma tecnologia. É um meio de comunicação, de interação e de organização social."
+    },{
+        "id":49,
+        "autor":"Simone de Beauvoir",
+        "cita":"É preciso erguer o povo à altura da cultura e não rebaixar a cultura ao nível do povo."
+    },{
+        "id":50,
+        "autor":"Paulo Freire",
+        "cita":"A inclusão acontece quando se aprende com as diferenças e não com as igualdades."
+    }
+    
     ]
 }

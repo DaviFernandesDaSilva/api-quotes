@@ -1,10 +1,13 @@
 export default function Home() {
 
   return (
-    <footer className="text-center bg-gray-900 text-white footer">
-  <div className="container min-w-min pt-4 mx-auto">
+    
+    <footer className="text-center text-white footer">
+  <div className="container min-w-min pt-2 mx-auto">
     <div className="flex justify-center">
-      <a href="https://twitter.com/Davipbr15" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
+      <a target="_blank" href="https://twitter.com/Davipbr15" type="button" className="
+      hover:scale-125 transform
+      rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -21,7 +24,7 @@ export default function Home() {
         </svg>
       </a>
 
-      <a href="#!" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
+      <a target="_blank" href="mailto:davipbr90@gmail.com?subject=Oi%20Davi!" type="button" className="hover:scale-125 transform rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -38,7 +41,7 @@ export default function Home() {
         </svg>
       </a>
 
-      <a href="https://www.instagram.com/davii.f/" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
+      <a target="_blank" href="https://www.instagram.com/davii.f/" type="button" className="hover:scale-125 transform rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -55,7 +58,9 @@ export default function Home() {
         </svg>
       </a>
 
-      <a href="#!" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
+      <a 
+      target="_blank"
+      href="https://www.linkedin.com/in/davi-fernandes-220440206/" type="button" className="hover:scale-125 transform rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -72,7 +77,7 @@ export default function Home() {
         </svg>
       </a>
 
-      <a href="https://github.com/Davipbr15" type="button" className="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
+      <a target="_blank" href="https://github.com/Davipbr15" type="button" className="hover:scale-125 transform rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-gray-700 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-8 h-8 m-1">
         <svg aria-hidden="true"
         focusable="false"
         data-prefix="fab"
@@ -90,9 +95,12 @@ export default function Home() {
       </a>
     </div>
   </div>
-  <div className="text-center text-sm p-2 mb-2 bg-gray-900 mx-auto">
+  <div className="text-center text-sm p-2 mb-2 mx-auto">
     © 2022 Copyright -
     <a className="text-whitehite" href="https://wa.link/90mpdc"> Davi Fernandes</a>
+  <br></br>
+  <small className="text-gray-300">Quotes version: v1.2  | </small>
+  <small className="text-gray-300">Phrases count: 50</small>
   </div>
 </footer>
   )
