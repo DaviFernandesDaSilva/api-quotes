@@ -217,8 +217,8 @@
     }
     ,{
         "id":42,
-        "autor":"Douglas Menezes",
-        "cita":"Misericórdia."
+        "autor":"Douglas Lima",
+        "cita":"Eu te odeio enel."
     }
     ,{
         "id":42,
@@ -257,6 +257,14 @@
         "id":50,
         "autor":"Paulo Freire",
         "cita":"A inclusão acontece quando se aprende com as diferenças e não com as igualdades."
+    },{
+        "id":51,
+        "autor":"Luva de Pedreiro",
+        "cita":"Receba."
+    },{
+        "id":52,
+        "autor":"Apóstolo Paulo",
+        "cita":"Viver é Cristo, morrer é lucro."
     }
     
     ]
