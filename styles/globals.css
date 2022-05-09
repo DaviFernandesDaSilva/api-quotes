@@ -32,11 +32,10 @@ container{
 }
 
 .all{
+  overflow-y: hidden;
   height:100vh;
 }
 
 * {
   box-sizing: border-box;
-   overflow-y: hidden;
-   overflow-x: hidden;
 }
