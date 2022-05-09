@@ -1,4 +1,4 @@
-import frases from '../src/frases.json';
+import frases from '../pages/frases.json';
 
 export default function Home() {
 
