@@ -32,18 +32,18 @@ export default function Home() {
 
   return (
     <div className="flex justify-center m-auto h-screen bg-gradient-to-br from-gray-600 to-gray-800 text-white mx-auto leading-relaxed">
-    <section className="flex justify-center scale-75 xl:scale-100 text-center min-w-6 items-center">
+    <section className="flex justify-center scale-50 xl:scale-100 text-center min-w-12 items-center">
       <div className="flex justify-center">
         <div className="
         transform hover:bg-gray-800 hover:scale-105 hover:shadow-gray-900 hover:shadow-xl 
         rounded-lg shadow-lg bg-gradient-to-tl from-gray-800 to-gray-900 shadow-gray-900 min-w-minmotion-safe:transition
-        motion-safe:ease-in-out duration-300 min-w-sm max-w-2xl text-center ">
+        motion-safe:ease-in-out duration-300 min-w-lg max-w-2xl text-center ">
             <div className="tracking-widest py-3 px-6 border-b font-medium  border-gray-900 text-white">
               Citação
             </div>
             <div className="p-7">
               <h5 className="whitespace-normal transition rounded-xl p-5 ease-in duration-300 text-white text-justify text-xl font-medium mb-2">
-              <nobr className="text-2xl">“</nobr> {citA} <nobr className="text-2xl">”</nobr>
+              <nobr className="text-2xl sm:text-lg">“</nobr> {citA} <nobr className="text-2xl">”</nobr>
               </h5>
               <p className="text-right text-white text-base mb-4">
                 - {autoR}

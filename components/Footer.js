@@ -2,7 +2,7 @@ export default function Home() {
 
   return (
     
-    <footer className="text-center text-white footer">
+    <footer className="text-center text-white footer scale-50 lg:scale-100">
   <div className="container min-w-min pt-2 mx-auto">
     <div className="flex justify-center">
       <a target="_blank" rel="noreferrer" href="https://twitter.com/Davipbr15" type="button" className="
