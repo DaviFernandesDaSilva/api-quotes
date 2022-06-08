@@ -1,3 +1,13 @@
+## Citared
+Citared foi pensado para pessoa que buscam citações para utilizar em redações, usar na vida ou apenas pelo divertimento.
+Era pra ser utilizado um banco de dados e assim criando uma API com NoSQL mas foi abandonado e jogado pra escanteio.
+É utilizando um arquivo .json dinâmico que contém, o id da citação, o autor da citação e a citação em si.
+
+Foi utilizando NextJS em conjunto com React e TailwindCSS.
+
+Usufrua aqui: [https://citared.vercel.app](https://citared.vercel.app)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
